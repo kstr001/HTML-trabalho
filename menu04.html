@@ -76,6 +76,33 @@
             margin: 0;
             }
         }
+        .container{
+            display: grid;
+        }
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: rgb(213, 199, 153);
+            color: rgb(43, 30, 30);
+            text-align: center;
+            border-radius: 10px;
+        }
+        #formulario{
+            border: 1px solid black;
+            text-align: center;
+            padding: 1px 16px;
+            width: 250px;
+            margin-left: 40%;
+            border-radius: 10px;
+            background-color: rgb(253, 240, 221);
+            font-family: cursive;
+        }
+        form input, textarea{
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            font-size: larger;
+        }
+        
     </style>
 </head>
 <body>
@@ -114,21 +141,22 @@
         <br>
     
         <label for="mensagem:">mensagem:</label> <br>
-        <textarea name="mensagem" rows="10" cols="50"></textarea>
+        <textarea name="mensagem" rows="10" cols="23"></textarea>
     
         <br>
     
-        <input type="submit">
+        <input type="button" value="Enviar">
 </form>
 
     <br>
     <br>
-    
-    <ul>
-        <li><a href="https://github.com/kstr001" target="_blank"><img src="logotipo-do-github.png" alt="logotipo-do-github.png" width="50px"></a></li>
 
-        <li><a href="https://www.linkedin.com/in/renan-kotovicz-268a21304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="logotipo-do-linkedin.png" alt="logotipo-do-linkedin.png" width="50px"></a></li>
-    </ul>
+ <footer>    
+     <ul>
+         <li><a href="https://github.com/kstr001" target="_blank"><img src="logotipo-do-github.png" alt="logotipo-do-github.png" width="50px"></a></li>
+         <li><a href="https://www.linkedin.com/in/renan-kotovicz-268a21304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="logotipo-do-linkedin.png" alt="logotipo-do-linkedin.png" width="50px"></a></li>
+     </ul>
+ </footer>
 
 </body>
 </html>
