@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATO</title>
     <style>
+         /*ajuste do menu*/
         ul{
             margin: 0;
             padding: 0;
             list-style: none;
             font-size: small;
         }
+         /*ajuste do menu*/
         li{
             float: left;
         }
+         /*ajuste do menu*/
         li a{
             font-family: fantasy;
             display: block;
@@ -25,6 +28,7 @@
             border: 2px solid rgb(94, 71, 39);
             border-radius: 10px;           
         }
+         /*A caso o menu tenha largura = 720*/
         @media(min-width:720px){
             ul{
             margin: 0;
@@ -46,6 +50,7 @@
             border-radius: 10px; 
             }
         }
+         /*Ao passar com o mause por cima*/
         li a:hover{
             background-color: rgb(94, 71, 39); 
             color: rgb(255, 255, 255);
@@ -119,6 +124,7 @@
             border-radius: 10px; 
             }
         }
+        /*Ajustes do formulario para telas com tamaho maximo de 720px*/
         @media(max-width:720px){
             #formulario{
             border: 1px solid black;
@@ -153,7 +159,7 @@
     <br>
     <br>
 
-<form action="" id="formulario">   
+<form action="" onsubmit="enviarFormulario()" id="formulario">   
         <label for="nome">Nome:</label>
         <input type="text" name="nome">
     
@@ -169,7 +175,7 @@
     
         <br>
     
-        <input type="button" value="Enviar">
+        <button type="submit">Enviar</button>
 </form>
 
     <br>
@@ -178,10 +184,26 @@
 
  <footer>    
      <ul>
+        <!--Minha pagina github-->
          <li><a href="https://github.com/kstr001" target="_blank"><img src="logotipo-do-github.png" alt="logotipo-do-github.png" width="50px"></a></li>
+         <!--Minha pagina linkedin-->
          <li><a href="https://www.linkedin.com/in/renan-kotovicz-268a21304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="logotipo-do-linkedin.png" alt="logotipo-do-linkedin.png" width="50px"></a></li>
      </ul>
  </footer>
 
+ <script>
+    // Envia formulario falso
+    function enviarFormulario(){
+    alert('Obrigado por enviar!');
+
+    // Seleciona todos os elementos input do formulário
+    const inputs = document.querySelectorAll('form input');
+
+    // Limpa o valor de cada input
+    inputs.forEach(input => {
+    input.value = '';
+    });
+    }
+ </script>
 </body>
 </html>
