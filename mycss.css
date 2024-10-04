@@ -1,0 +1,177 @@
+ /*ajuste do menu*/
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: small;
+}
+ /*ajuste do menu*/
+li{
+    float: left;
+}
+ /*ajuste do menu*/
+li a{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: rgb(43, 30, 30);
+    padding: 8px 14px;
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+    margin: 4px;
+    border: 2px solid rgb(94, 71, 39);
+    border-radius: 10px;      
+}
+ /*A caso o menu tenha largura = 720*/
+@media(min-width:720px){
+    ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: medium;
+    }   
+
+    li a{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: rgb(43, 30, 30);
+    padding: 10px 108px;
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+    margin: 4px;
+    border: 2px solid rgb(94, 71, 39);
+    border-radius: 10px; 
+    }
+}
+ /*Ao passar com o mause por cima*/
+li a:hover{
+    background-color: rgb(94, 71, 39); 
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(43, 30, 30);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(213, 199, 153);
+    border-radius: 15px;
+}
+html{
+    font-family: sans-serif; 
+}
+.center{
+    color: rgb(43, 30, 30);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+hr{
+    position: absolute;
+    width: 98%;
+   border: 5px solid rgb(94, 71, 39); 
+   border-radius: 20px;
+}
+.container{
+    display: grid;
+}
+/*se tivese algo escrito no footer*/
+footer{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: rgb(213, 199, 153);
+    color: rgb(43, 30, 30);
+    text-align: center;
+    border-radius: 10px;
+}
+/*para deixar estiloso o meu formulario*/
+#formulario{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px 16px;
+    width: 250px;
+    margin-left: 40%;
+    border-radius: 10px;
+    background-color: rgb(213, 199, 153);
+    font-family: 'Courier New', Courier, monospace;
+}
+form input, textarea{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: larger;
+}
+@media(max-width:720px){
+    li a{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: rgb(43, 30, 30);
+    padding: 10px 3px;
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+    margin: 4px;
+    border: 2px solid rgb(94, 71, 39);
+    border-radius: 10px; 
+    }
+}
+article{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: larger;
+
+}
+/*Ajustes do formulario para telas com tamaho maximo de 720px*/
+@media(max-width:720px){
+    #formulario{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px 16px;
+    width: 250px;
+    margin-left: 20%;
+    border-radius: 10px;
+    background-color: rgb(213, 199, 153);
+    font-family: 'Courier New', Courier, monospace;
+}
+}
+.tx{
+    font-size: x-large;
+    text-indent: 30px;
+    border: 2px solid rgb(94, 71, 39);
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(43, 30, 30);
+}
+/*ao pasar com o mause por cima dos botoes do portifolio*/
+.tx:hover{
+    background-color: rgb(94, 71, 39); 
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(43, 30, 30);
+}
+/*estilo para emoji*/
+.emoji{
+    font-size: 100px;
+    text-align: right;
+    margin: 0 150px ;
+}
+ /*formatação da minha lista não ordenada*/
+ .ponto{
+    list-style: outside;
+    color: rgb(43, 30, 30);
+    font-size: x-large;
+    border: 2px solid rgb(213, 199, 153);
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto{
+    font-size: x-large;
+    text-indent: 30px;
+    border: 2px solid rgb(213, 199, 153);
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}

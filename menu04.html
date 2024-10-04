@@ -5,157 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATO</title>
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
-    <style>
-         /*ajuste do menu*/
-        ul{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            font-size: small;
-        }
-         /*ajuste do menu*/
-        li{
-            float: left;
-        }
-         /*ajuste do menu*/
-        li a{
-            font-family: fantasy;
-            display: block;
-            color: rgb(43, 30, 30);
-            padding: 8px 16px;
-            text-decoration: none;
-            background-color: rgb(250, 250, 250);
-            margin: 4px;
-            border: 2px solid rgb(94, 71, 39);
-            border-radius: 10px;           
-        }
-         /*A caso o menu tenha largura = 720*/
-        @media(min-width:720px){
-            ul{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            font-size: small;
-            }   
-
-            li a{
-            text-align: center;
-            font-family: fantasy;
-            display: block;
-            color: rgb(43, 30, 30);
-            padding: 10px 119px;
-            text-decoration: none;
-            background-color: rgb(250, 250, 250);
-            margin: 4px;
-            border: 2px solid rgb(94, 71, 39);
-            border-radius: 10px; 
-            }
-        }
-         /*Ao passar com o mause por cima*/
-        li a:hover{
-            background-color: rgb(94, 71, 39); 
-            color: rgb(255, 255, 255);
-            border: 2px solid rgb(43, 30, 30);
-        }
-        nav{
-            width: 100%;
-            height: 50px;
-            background-color: rgb(213, 199, 153);
-            border-radius: 15px;
-        }
-        html{
-            font-family: sans-serif; 
-        }
-        .center{
-            color: rgb(43, 30, 30);
-            text-align: center;
-            font-family: cursive;
-        }
-        hr{
-            position: absolute;
-            width: 98%;
-           border: 5px solid rgb(94, 71, 39); 
-           border-radius: 20px;
-        }
-        .container{
-            display: grid;
-        }
-        /*se tivese algo escrito no footer*/
-        footer{
-            grid-column-start: 1;
-            grid-column-end: 12;
-            background-color: rgb(213, 199, 153);
-            color: rgb(43, 30, 30);
-            text-align: center;
-            border-radius: 10px;
-        }
-        /*para deixar estiloso o meu formulario*/
-        #formulario{
-            border: 1px solid black;
-            text-align: center;
-            padding: 1px 16px;
-            width: 250px;
-            margin-left: 40%;
-            border-radius: 10px;
-            background-color: rgb(213, 199, 153);
-            font-family: cursive;
-        }
-        form input, textarea{
-            background-color: rgb(255, 255, 255);
-            border-radius: 10px;
-            font-size: larger;
-        }
-        @media(max-width:720px){
-            li a{
-            text-align: center;
-            font-family: fantasy;
-            display: block;
-            color: rgb(43, 30, 30);
-            padding: 10px 3px;
-            text-decoration: none;
-            background-color: rgb(250, 250, 250);
-            margin: 4px;
-            border: 2px solid rgb(94, 71, 39);
-            border-radius: 10px; 
-            }
-        }
-        /*Ajustes do formulario para telas com tamaho maximo de 720px*/
-        @media(max-width:720px){
-            #formulario{
-            border: 1px solid black;
-            text-align: center;
-            padding: 1px 16px;
-            width: 250px;
-            margin-left: 20%;
-            border-radius: 10px;
-            background-color: rgb(213, 199, 153);
-            font-family: cursive;
-        }
-    }
+    <link rel="stylesheet" href="mycss.css">
     </style>
 </head>
 <body>
     <!--meu de links-->
     <nav>
         <ul>
-            <li ><a href="index.html">SOBRE MIM</a></li>
-            <li><a href="menu02.html">FORMAÇÕES</a></li>
-            <li><a href="menu03.html">PORTIFÓLIO</a></li>
-            <li><a href="menu04.html">CONTATO</a></li>
+            <li ><a href="index.html"><strong>SOBRE MIM</strong></a></li>
+            <li><a href="menu02.html"><strong>FORMAÇÕES</strong></a></li>
+            <li><a href="menu03.html"><strong>PORTIFÓLIO</strong></a></li>
+            <li><a href="menu04.html"><strong>CONTATO</strong></a></li>
         </ul>
     </nav>
 
     <br>
 
     <header>
-        <h1 class="center">CONTATO</h1>
+        <h1 class="center"><strong>CONTATO</strong></h1>
     </heder>
 
     <hr>
     <br>
     <br>
 <!--formulario-->
-<form action="" onsubmit="enviarFormulario()" id="formulario">   
+<!--<form action="" onsubmit="enviarFormulario()" id="formulario">   
         <label for="nome">Nome:</label>
         <input type="text" name="nome">
     
@@ -172,7 +46,17 @@
         <br>
     
         <button type="submit">Enviar</button>
-</form>
+</form>-->
+<article>
+    <p>
+        <strong>
+            e-mail: renankotovicz001@gmail.com
+            <br>
+            <br>
+            telefone: (41) 99562-4016
+        </strong>
+    </p>
+</article>
 
     <br>
     <hr>
