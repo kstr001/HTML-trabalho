@@ -149,6 +149,15 @@ article{
     color: rgb(255, 255, 255);
     border: 2px solid rgb(43, 30, 30);
 }
+@media(max-width:720px){
+    .tx{
+        font-size: small;
+    }
+    article{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
 /*estilo para emoji*/
 .emoji{
     font-size: 100px;
