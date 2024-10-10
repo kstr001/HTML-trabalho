@@ -183,10 +183,6 @@ article{
     .ponto{
         margin-left: 1rem;
         margin-right: 1rem;
-        font-size: medium;
-    }
-    article{
-
     }
 }
 .texto{
@@ -208,6 +204,11 @@ article{
         margin: 0;
         margin-left: 1rem;
     }
+    #forma{
+        margin: 5px;
+        font-size: medium;
+    }
+    
 }
 #mais{
     text-align: center;
