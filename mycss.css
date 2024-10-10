@@ -80,6 +80,9 @@ footer{
     color: rgb(43, 30, 30);
     text-align: center;
     border-radius: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
 }
 /*para deixar estiloso o meu formulario*/
 #formulario{
@@ -183,4 +186,8 @@ article{
     text-align: left;
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
+}
+#mais{
+    text-align: center;
+    margin-left: 2rem;
 }
