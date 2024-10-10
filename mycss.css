@@ -151,7 +151,7 @@ article{
 }
 @media(max-width:720px){
     .tx{
-        font-size: small;
+        font-size: medium;
     }
     article{
         margin-left: 1rem;
